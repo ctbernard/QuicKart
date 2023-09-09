@@ -499,11 +499,12 @@ const start = async () => {
   const host = '0.0.0.0';
 
   const { url } = await server.listen(port, host, function () {
-    console.log(`🚀 Server listening at: ${url}`);
+    console.log(`Starting server...`);
   });
+  console.log(`🚀 Server listening at: ${url}`);
 
   // const { url } = await startStandaloneServer(server, { listen: { port } });
-  
+
   // The `listen` method launches a web server.
   // server.listen()
 
