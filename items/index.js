@@ -1,5 +1,6 @@
 //connects the database to the server
 const { ApolloServer, gql } = require('apollo-server');
+// const { startStandaloneServer } = require('@apollo/server/standalone');
 const { MongoClient, ObjectID } = require('mongodb');
 
 const graph = require('../routing/graph');
@@ -496,7 +497,9 @@ const start = async () => {
   });
   const port = Number.parseInt(process.env.PORT) || 4000;
 
-  const { url } = await startStandaloneServer(server, { listen: { port } });
+  const { url } = await server.listen(port);
+
+  // const { url } = await startStandaloneServer(server, { listen: { port } });
 
   console.log(`🚀 Server listening at: ${url}`);
 
