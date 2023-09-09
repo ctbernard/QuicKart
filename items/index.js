@@ -494,9 +494,11 @@ const start = async () => {
   }); 
   
   // The `listen` method launches a web server.
-  server.listen().then(({ url }) => {
-      console.log(`🚀  Server ready at ${url + 'quickkart'}`);
-  });
+  server.listen()
+    
+//     .then(({ url }) => {
+//       console.log(`🚀  Server ready at ${url + 'quickkart'}`);
+//   });
 }
 
 start();
