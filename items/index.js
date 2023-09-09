@@ -496,13 +496,14 @@ const start = async () => {
     introspection: true
   });
   const port = Number.parseInt(process.env.PORT) || 4000;
+  const host = '0.0.0.0';
 
-  const { url } = await server.listen(port);
+  const { url } = await server.listen(port, host, function () {
+    console.log(`🚀 Server listening at: ${url}`);
+  });
 
   // const { url } = await startStandaloneServer(server, { listen: { port } });
-
-  console.log(`🚀 Server listening at: ${url}`);
-
+  
   // The `listen` method launches a web server.
   // server.listen()
 
