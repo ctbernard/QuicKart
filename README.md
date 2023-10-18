@@ -16,6 +16,7 @@ The project repository can be found [here](https://github.com/ctbernard/QuicKart
 ## Build Instructions
  
 <strong>1.</strong> Clone the repository into your local machine.
+```
 <strong>2.</strong> If you dont have node or npm installed then type the following commands: 
 ```
 node install 16.20.2 
@@ -23,7 +24,7 @@ node install 16.20.2
 ```
 npm install 7.24.2
 ```
-<strong>2a.</strong> Ensure that you have nodejs and npm installed with the following commands: (You should see something like "v16.13.2")
+<strong>2a.</strong> To ensure that you have nodejs and npm installed enter the following commands: (You should see something like "v16.13.2")
 ```
 node -v
 ```
