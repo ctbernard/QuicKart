@@ -14,8 +14,9 @@ const astar = (graph, start, end) => {
      * 2.) create variables
      * 3.) create heuristic
      * 4.) implement search algorithm
-     * 
+     *  
      * Pseudocode:
+
 
         push start onto openSet
         while(openSet is not empty) {
