@@ -23,7 +23,7 @@ node install 16.20.2
 ```
 npm install 7.24.2
 ```
-<strong>2a.</strong> To ensure that you have nodejs and npm installed enter the following commands: (You should see something like "v16.13.2")
+<strong>2.</strong> To ensure that you have nodejs and npm installed enter the following commands: (You should see something like "v16.13.2")
 ```
 node -v
 ```
@@ -63,22 +63,28 @@ project relies on ready to go.
 - ### <em><strong>Note</strong></em>
 &nbsp; &nbsp; &nbsp; I recommend going over some of the docs on this website https://docs.expo.dev/ and also testing out expo in the browser here https://snack.expo.dev/ to familiarize yourself with the technology. There will be some account creation involved.
 
-To run the front end of the project, make sure you're in the view directory in your terminal and then run the command
+To run the front end of the project, make sure you're in the view directory in your terminal and then run the command.
 ```
 npm run web
 ```
-Make sure to create an account with Expo Go and sign into it on your phone. There may be some network issues at first. What I did for my local was to set my home network to private. That is not the only solution though. Please pay attention to the screenshot of the Expo Go docs below if you wish to set up tunneling. (I didn't go this route but I believe with some googling, that it wouldn't be too complex.) 
+Make sure to create an account with Expo Go and sign into it on your phone. (We used our phones to sign in, however we used a android emulator to access the app.)
 
 <em>Screenshot</em>
-![image](https://user-images.githubusercontent.com/74102531/199380582-941f3e4d-2313-4c36-9604-af3d90b2a609.png)
-<em>Screenshot</em>
-
-
-You'll see a QR code pop up in your terminal. If your on an iphone, just download the Expo Go app from the app store, and scan it with your camera.
-On android, I believe you need to scan the QR code from the expo go app. The Expo Go icon looks like the picture below:
 
 ![image](https://user-images.githubusercontent.com/74102531/199377266-36155398-a05e-4406-a16d-ccb360cfcfe3.png)
 
+You'll see a QR code pop up in your terminal and commands on where you want to open the project. 
+
+![90922c51-3669-4e6f-b7c6-60d2b421a435](https://github.com/ctbernard/QuicKart-RapidCode-Innovators/assets/106941331/043e22ce-dce0-45c0-82a6-17c3b99c0a8d)
+
+To run it on android emulator, run the command 
+```
+a
+```
+
+Within your terminal and emulator, Expo Go will begin installling and building the project.
+
+<em>Resources</em>
 React docs: https://reactjs.org/docs/getting-started.html
 React-native docs: https://reactnative.dev/docs/getting-started
 
@@ -103,8 +109,7 @@ learned to begin building QuickKart.
 ## Usage
 This app is intended to be used by consumers who enjoy shopping in a physical grocery store but don't enjoy how long it takes. Our app is based off a store map with coordinates and each item in inventory belongs to a coordinate on the map. Our algorithm uses the coordinates to determine the fastest shopping route the user can take, starting from the entrance. Once calculated, we display those items to the user in a user friendly manner.
 
-![image](https://user-images.githubusercontent.com/74102531/200415550-4f204e93-7065-4d8c-a432-bf2579acda9b.png)
-
+![b6062486-ea2c-4b7a-80e9-733c0d1a3b62](https://github.com/ctbernard/QuicKart-RapidCode-Innovators/assets/106941331/ced8ed31-72bd-41e1-96f8-c6786183415d)
 
 ## Communications
 The team used JIRA as our project progess tracking tool alongside Discord and Microsft Teams as our primary communication tool and meeting platform.
@@ -115,8 +120,7 @@ The team used JIRA as our project progess tracking tool alongside Discord and Mi
    - _**UX/UI Lead**_
 2. Benjamin Caron :computer:
    - _**Code Architect**_
-3. Christopher Bernard 🕴️
-   - _**Team Manager**_
+3. Christopher Bernard :computer:
    - _**Code Architect**_
 4. Dion Del Rosario :mag:
    - _**Testing Lead**_
