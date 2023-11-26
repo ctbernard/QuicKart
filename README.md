@@ -75,7 +75,8 @@ Make sure to create an account with Expo Go and sign into it on your phone. (We 
 
 You'll see a QR code pop up in your terminal and commands on where you want to open the project. 
 
-![90922c51-3669-4e6f-b7c6-60d2b421a435](https://github.com/ctbernard/QuicKart-RapidCode-Innovators/assets/106941331/043e22ce-dce0-45c0-82a6-17c3b99c0a8d)
+![5db94518-4863-4a74-b5cb-a7c6e1f93270](https://github.com/ctbernard/QuicKart-RapidCode-Innovators/assets/106941331/88cb2beb-19d1-49a1-a65a-6a79b3ac3a2e)
+
 
 To run it on android emulator, run the command 
 ```
