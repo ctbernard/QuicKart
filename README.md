@@ -75,6 +75,8 @@ Make sure to create an account with Expo Go and sign into it on your phone. (We 
 
 You'll see a QR code pop up in your terminal and commands on where you want to open the project. 
 
+<em>Screenshot</em>
+
 ![5db94518-4863-4a74-b5cb-a7c6e1f93270](https://github.com/ctbernard/QuicKart-RapidCode-Innovators/assets/106941331/88cb2beb-19d1-49a1-a65a-6a79b3ac3a2e)
 
 
@@ -85,9 +87,9 @@ a
 
 Within your terminal and emulator, Expo Go will begin installling and building the project.
 
-<em>Resources</em>
-React docs: https://reactjs.org/docs/getting-started.html
-React-native docs: https://reactnative.dev/docs/getting-started
+<em>Resources</em>:  
+- React docs: https://reactjs.org/docs/getting-started.html 
+- React-native docs: https://reactnative.dev/docs/getting-started
 
 ## Backend
 
@@ -110,7 +112,7 @@ learned to begin building QuickKart.
 ## Usage
 This app is intended to be used by consumers who enjoy shopping in a physical grocery store but don't enjoy how long it takes. Our app is based off a store map with coordinates and each item in inventory belongs to a coordinate on the map. Our algorithm uses the coordinates to determine the fastest shopping route the user can take, starting from the entrance. Once calculated, we display those items to the user in a user friendly manner.
 
-![b6062486-ea2c-4b7a-80e9-733c0d1a3b62](https://github.com/ctbernard/QuicKart-RapidCode-Innovators/assets/106941331/ced8ed31-72bd-41e1-96f8-c6786183415d)
+![welcome](https://github.com/ctbernard/QuicKart-RapidCode-Innovators/assets/103677691/3f9a6c2b-e76f-47c1-aa83-e3c6e0901eaa)
 
 ## Communications
 The team used JIRA as our project progess tracking tool alongside Discord and Microsft Teams as our primary communication tool and meeting platform.
