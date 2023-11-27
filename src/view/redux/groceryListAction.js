@@ -7,4 +7,3 @@ export const setGroceryList = groceryList => dispatch => {
         payload: groceryList
     })
 }
-
