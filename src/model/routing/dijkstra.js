@@ -8,7 +8,7 @@
  */
 
 const dijkstra = (map, start, end) => {
-
+z
     /**
      * Determines the node that is closest to the source node
      * @param {Array} unprocessed contains nodes that have been visited, but the calculations perfomed on those nodes are unfinished

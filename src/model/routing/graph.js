@@ -115,7 +115,7 @@
         if(col - 1 >= 0 && row + 1 <= width){ //SE
           addEdge(graph[row][col],graph[row + 1][col - 1]);
         } 
-        
+        z
         if(col - 1 >= 0){ //S
           addEdge(graph[row][col],graph[row][col - 1]);
         } 
