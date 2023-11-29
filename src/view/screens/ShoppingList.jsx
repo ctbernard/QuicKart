@@ -11,6 +11,7 @@ import { setGroceryList } from '../redux/groceryListAction'
 import { setTotal } from '../redux/totalActions';
 import { Ionicons } from '@expo/vector-icons';
 import { Swipeable, GestureHandlerRootView } from 'react-native-gesture-handler';
+// GraphQL query to get inventory data
 
 const GET_ITEMS = gql`
   query GetInventory($id: Int!) {
@@ -93,7 +94,8 @@ export const ShoppingListScreen = ({ navigation }) => {
     variables: { id: 123 },
   });
   const { groceryList } = useSelector((state) => state.listReducer);
-
+  
+  // Redux dispatch for updating total price
   const dispatch = useDispatch();
 
   const totalHandler = () => {
